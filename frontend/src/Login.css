@@ -1,0 +1,88 @@
+/* Full Page Wrapper */
+.login-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Heading Styling */
+  .heading {
+    font-family: 'Great Vibes', cursive;
+    font-size: 5rem;
+    color: #743a06;
+    text-shadow: 2px 2px 5px #000;
+    margin-top: 2rem; /* Adjust to control top spacing */
+  }
+  
+  /* Login Container */
+  .login-container {
+    max-width: 400px;
+    width: 100%; /* Optional for responsive scaling */
+    min-height: 200px; /* Increased height */
+    margin: 20px auto;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers content vertically */
+  }
+  
+  /* Login Form Styling */
+  .login-container h2 {
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  .login-container form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  .login-container input {
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .login-container button {
+    padding: 12px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .login-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Additional Styling */
+  .login-container p {
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  
+  .login-container a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .login-container a:hover {
+    text-decoration: underline;
+  }
+  
